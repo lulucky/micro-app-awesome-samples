@@ -8,7 +8,8 @@ import microApp from '@micro-zoe/micro-app'
   <div>
     <div>主应用</div>
     <div>
-      <micro-app iframe url="http://localhost:7777/" name="vue35demo"></micro-app>
+      <micro-app iframe url="http://localhost:7780/" name="vue35demo"  baseroute="/"
+      ></micro-app>
     </div>
   </div>
 </template>
